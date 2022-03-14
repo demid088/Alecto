@@ -1,0 +1,40 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 100;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+.header__logo {
+  display: block;
+}
+
+.header__logo_img {
+  width: 108px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav_link {
+  font-weight: 700;
+  letter-spacing: 0.025rem;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.header__nav_link:first-child {
+  margin-left: 0;
+}

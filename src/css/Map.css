@@ -1,0 +1,52 @@
+.map {
+  width: 100%;
+  min-height: 755px;
+}
+
+.map__content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 190px 0;
+}
+
+.map__content_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 48%;
+}
+
+.map__content_map {
+  position: relative;
+  width: 48%;
+}
+
+.map__title {
+  font-size: 60rem;
+  font-weight: 200;
+  letter-spacing: 0.025em;
+  color: #576671;
+}
+
+.map__text {
+  font-family: 'Proxima Nova';
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #87949e;
+  margin: 85px 0 75px;
+}
+
+.map__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 100%;
+  max-height: 520px;
+  color: #dae2ee;
+  background-color: #fff;
+  opacity: 0.7;
+}

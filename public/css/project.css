@@ -1,0 +1,69 @@
+/* PROJECT
+========================================================================== */
+
+/* FONTS ==================================================================*/
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 300;
+
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Proxima Nova"),
+       /* Если не получилось... */
+       url("../font/ProximaNova/proximanova_light.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Proxima Nova"),
+       /* Если не получилось... */
+       url("../font/ProximaNova/proximanova_regular.ttf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Proxima Nova"),
+       /* Если не получилось... */
+       url("../font/ProximaNova/proximanova_bold.otf");
+}
+
+/* Buttons ===============================================================*/
+
+.btn {
+  width: 183px;
+  height: 47px;
+  font-size: 14rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #17daa3;
+  border-width: 0;
+  border-radius: 23.5rem;
+
+  display: block;
+  text-align: center;
+  line-height: normal;
+  font-family: 'Proxima Nova', sans-serif;
+  letter-spacing: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #14aa80;
+}
+
+.btn--outline {
+  background-color: rgba(0,182,203,0.0);
+  border: 2px solid #fff;
+}
+

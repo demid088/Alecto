@@ -1,0 +1,27 @@
+/* MASTER
+========================================================================== */
+
+html {
+  position: relative;
+  font-size: 1px;
+}
+
+body {
+  max-width: 2000px; /* ширина сайта */
+  width: 100%;
+  margin: 0 auto;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 14rem;
+  line-height: normal;
+  color: #000;
+
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1470px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}

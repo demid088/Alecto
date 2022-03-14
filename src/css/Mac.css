@@ -1,0 +1,44 @@
+.mac {
+  width: 100%;
+  min-height: 700px;
+  /* background-color: #edeff1; */
+  background-color: rgb(235, 239, 240);
+}
+
+.mac__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 150px 0;
+}
+
+.mac__img {
+  display: block;
+  width: 50%;
+  padding: 35px;
+}
+
+.mac__content_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.mac__title {
+  font-size: 60rem;
+  font-weight: 200;
+  letter-spacing: 0.025em;
+  color: #576671;
+}
+
+.mac__text {
+  font-family: 'Proxima Nova';
+  font-size: 18rem;
+  line-height: 36px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #87949e;
+  margin: 75px 0;
+}
